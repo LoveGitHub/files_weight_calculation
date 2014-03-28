@@ -1,0 +1,135 @@
+{
+	"pagination": {
+		"current_page": 1,
+		"total_pages": 1,
+		"total_entries": 7
+	},
+	"files": [
+		{
+			"id": 5152670,
+			"name": "How To - Manage Accounts",
+			"extension": "mp4",
+			"version": 1,
+			"size": 3528877,
+			"created_at": "2014-03-16T20:49:45Z",
+			"updated_at": "2014-03-16T20:49:45Z",
+			"creator": {
+				"name": "Arup Rakshit",
+				"email": "aruprakshit@rocketmail.com",
+				"uuid": "c40d2519-8cc5-4f1b-9a24-f85af4f0769e"
+			},
+			"url": "https://my.workshare.com/decks/5152670",
+			"access_token": "U-MiVHnVuzl53Q2s",
+			"first_page_url": "https://my.workshare.com/images/icons/medium/unknown.png",
+			"folder_id": 525431
+		},
+		{
+			"id": 5152672,
+			"name": "Workshare Quick Start Guide",
+			"extension": "pdf",
+			"version": 1,
+			"size": 3103717,
+			"created_at": "2014-03-16T20:49:45Z",
+			"updated_at": "2014-03-16T20:49:46Z",
+			"creator": {
+				"name": "Arup Rakshit",
+				"email": "aruprakshit@rocketmail.com",
+				"uuid": "c40d2519-8cc5-4f1b-9a24-f85af4f0769e"
+			},
+			"url": "https://my.workshare.com/decks/5152672",
+			"access_token": "1FjSG32xe5ZwDEHe",
+			"first_page_url": "https://my.workshare.com/images/icons/medium/pdf.png",
+			"folder_id": 525431
+		},
+		{
+			"id": 5152663,
+			"name": "How To - Upload Files",
+			"extension": "mp4",
+			"version": 1,
+			"size": 2496476,
+			"created_at": "2014-03-16T20:49:44Z",
+			"updated_at": "2014-03-16T20:49:44Z",
+			"creator": {
+				"name": "Arup Rakshit",
+				"email": "aruprakshit@rocketmail.com",
+				"uuid": "c40d2519-8cc5-4f1b-9a24-f85af4f0769e"
+			},
+			"url": "https://my.workshare.com/decks/5152663",
+			"access_token": "mfQneMLQ2lXznz2I",
+			"first_page_url": "https://my.workshare.com/images/icons/medium/unknown.png",
+			"folder_id": 525431
+		},
+		{
+			"id": 5152666,
+			"name": "Data Sheet - Workshare Data Security, Policy Enforcement, and Data Center Architecture",
+			"extension": "pdf",
+			"version": 1,
+			"size": 735548,
+			"created_at": "2014-03-16T20:49:44Z",
+			"updated_at": "2014-03-16T20:49:44Z",
+			"creator": {
+				"name": "Arup Rakshit",
+				"email": "aruprakshit@rocketmail.com",
+				"uuid": "c40d2519-8cc5-4f1b-9a24-f85af4f0769e"
+			},
+			"url": "https://my.workshare.com/decks/5152666",
+			"access_token": "psBdb1jOT1ctgXMl",
+			"first_page_url": "https://my.workshare.com/images/icons/medium/pdf.png",
+			"folder_id": 525431
+		},
+		{
+			"id": 5152660,
+			"name": "How To - Share Folders",
+			"extension": "mp4",
+			"version": 1,
+			"size": 11039700,
+			"created_at": "2014-03-16T20:49:43Z",
+			"updated_at": "2014-03-16T20:49:43Z",
+			"creator": {
+				"name": "Arup Rakshit",
+				"email": "aruprakshit@rocketmail.com",
+				"uuid": "c40d2519-8cc5-4f1b-9a24-f85af4f0769e"
+			},
+			"url": "https://my.workshare.com/decks/5152660",
+			"access_token": "uBFW2V3oBNUTINWZ",
+			"first_page_url": "https://my.workshare.com/images/icons/medium/unknown.png",
+			"folder_id": 525431
+		},
+		{
+			"id": 5152657,
+			"name": "How To - Collaborate",
+			"extension": "mp4",
+			"version": 1,
+			"size": 4750831,
+			"created_at": "2014-03-16T20:49:42Z",
+			"updated_at": "2014-03-16T20:49:42Z",
+			"creator": {
+				"name": "Arup Rakshit",
+				"email": "aruprakshit@rocketmail.com",
+				"uuid": "c40d2519-8cc5-4f1b-9a24-f85af4f0769e"
+			},
+			"url": "https://my.workshare.com/decks/5152657",
+			"access_token": "2HKxZV1oXZ3CFHLa",
+			"first_page_url": "https://my.workshare.com/images/icons/medium/unknown.png",
+			"folder_id": 525431
+		},
+		{
+			"id": 5152658,
+			"name": "Data Sheet - Workshare Platform",
+			"extension": "pdf",
+			"version": 1,
+			"size": 394739,
+			"created_at": "2014-03-16T20:49:42Z",
+			"updated_at": "2014-03-16T20:49:43Z",
+			"creator": {
+				"name": "Arup Rakshit",
+				"email": "aruprakshit@rocketmail.com",
+				"uuid": "c40d2519-8cc5-4f1b-9a24-f85af4f0769e"
+			},
+			"url": "https://my.workshare.com/decks/5152658",
+			"access_token": "UXHy_UWkKaX-_9vS",
+			"first_page_url": "https://my.workshare.com/images/icons/medium/pdf.png",
+			"folder_id": 525431
+		}
+	]
+}

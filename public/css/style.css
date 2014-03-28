@@ -1,0 +1,17 @@
+form {
+  width:300px;
+  margin:auto;
+}
+
+label:after {
+  content:'*';
+  color:red;
+}
+
+label{
+    width: 360px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+

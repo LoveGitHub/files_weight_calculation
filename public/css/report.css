@@ -1,0 +1,18 @@
+#t12 {
+    width: 80%;
+    min-width: 300px;
+    margin: 0 auto;
+}
+#t12 caption {
+    text-align: center;
+}
+#t12 th,
+#t12 td {
+    width: 100px;
+    text-align: left;
+    border: 2px ridge grey;
+}
+#t12 th {
+    color: white;
+    background-color: dodgerblue;
+}
