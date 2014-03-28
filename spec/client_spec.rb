@@ -1,6 +1,6 @@
 class TestClient < MiniTest::Unit::TestCase 
   def setup
-    @client = Client.new('c664cbdc-6b11', 'aruprakshit@rocketmail.com', 'arupws1987')
+    @client = Client.new(api_id, mail, passwd)
   end
 
   def test_invalid_resource_access
