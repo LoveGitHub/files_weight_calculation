@@ -14,7 +14,8 @@ class MyApp < Sinatra::Base
 
   post '/report/?' do
     client = Client.new(params[:Secureid], params[:email], params[:passwort])
-    @total_gravity, @added_gravity, @table_rows = *client.weight_of_files_of_a_user
+    action = client.action_want_to_perform(params[:resource_list])
+    @total_gravity, @added_gravity, @table_rows = *client.send(action)
     if [@total_gravity, @added_gravity, @table_rows].all?(&:nil?)
       raise MyCustomError, "Combination of email id, password and application id is not valid, please try again with a valid one."
     end

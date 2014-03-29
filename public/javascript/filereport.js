@@ -6,5 +6,17 @@ function checkEmail(id,email)
   else{
     alert('mail not valid');// here sending a message to the user
     document.getElementById(id).value="";
+    document.getElementById(id).focus;
   }
+}
+
+function checkList(id)
+{ 
+  if(document.getElementById(id).value=='0')
+  {
+    alert("Please Select a Value from \"Action to Perform\" Dropdown");
+    return false;
+  }
+  else
+  return true;
 }

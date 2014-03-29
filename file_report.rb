@@ -21,8 +21,6 @@ module FileReport
       resource_lists_to_access(1)
       files_after_classification = file_classification parse_json(@josn_files ) 
       final_report_data_as_a_hash = final_report_data_as_a_hash(files_after_classification)
-      #total_gravity = total_gravity_calculation(final_report_data_as_a_hash)
-      #added_gravity = added_gravity_calculation(final_report_data_as_a_hash)
       [ 
         total_gravity_calculation(final_report_data_as_a_hash),
         added_gravity_calculation(final_report_data_as_a_hash),

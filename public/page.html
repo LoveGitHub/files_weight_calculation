@@ -14,7 +14,7 @@
 
   <body>
 
-    <form method="post" action="/report">
+    <form id="form_credentials" method="post" action="/report">
       <table>
         <tr>
           <td >
@@ -41,8 +41,17 @@
           </td>
         </tr>
         <tr>
+          <td> <label name = "resource_dropdown"> Action to perform :</label> </td>
+          <td> 
+            <select id = 'resource_list' name = 'resource_list' required>
+              <option value = '0'> -select- </option>
+              <option value = '1'> File report </option>
+            </select>
+          </td>
+        </tr>
+        <tr>
           <td colspan="2" style="text-align:center">
-            <input type="submit" value="Login" />
+            <input type="submit" value="Login" onclick="return checkList('resource_list');" />
           </td>
         </tr>
       </table>
