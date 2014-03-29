@@ -8,7 +8,7 @@ class TestClient < MiniTest::Unit::TestCase
   end
 
   def test_valid_resource_access
-    assert_kind_of Array, @client.resource_lists_to_access(1)
+    assert_kind_of String, @client.resource_lists_to_access(1)
   end
 
   def test_make_url_must_not_accept_any_argument_except_string

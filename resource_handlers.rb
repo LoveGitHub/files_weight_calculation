@@ -15,11 +15,11 @@ module ResourceHandler
     end
   end
 
-  def resource_lists_to_access(*resources)
+  def resource_lists_to_access(action_handler)
     resource_hash = { 1 => :get_files }
     # trying to log in using the users specified credentials. If log in is not possible, a message will be displayed
     # to a page.
-    raise 'Invalid resource access' unless resource_hash.keys.all? { |resource| resources.include? resource }
-    login_to_host(resource_hash.values_at(*resources))
+    raise 'No handlers found for the requested action' unless resource_hash.keys.include? action_handler
+    login_to_host(resource_hash[action_handler])
   end
 end

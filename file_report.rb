@@ -28,7 +28,7 @@ module FileReport
       ]
     rescue RuntimeError => ex
       case ex.message
-      when 'Invalid resource access' then []
+      when 'No handlers found for the requested action' then []
       when "Invalid credentials" then []
       end
     end
