@@ -14,4 +14,12 @@ class TestClient < MiniTest::Unit::TestCase
   def test_make_url_must_not_accept_any_argument_except_string
     assert_raises(TypeError) { @client.send(:make_url, nil) }
   end
+
+  def test_invalid_action_requested_by_client
+    assert_nil @client.action_want_to_perform('0'), nil
+  end
+
+  def test_invalid_action_requested_by_client
+    refute_nil @client.action_want_to_perform('1'), nil
+  end
 end
