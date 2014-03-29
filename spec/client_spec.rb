@@ -22,4 +22,7 @@ class TestClient < MiniTest::Unit::TestCase
   def test_invalid_action_requested_by_client
     refute_nil @client.action_want_to_perform('1'), nil
   end
+  def teardown
+    @client = nil
+  end
 end
