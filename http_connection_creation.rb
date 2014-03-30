@@ -16,10 +16,12 @@ module HttpConnection
       else
         raise "Invalid credentials"
       end
+      # calling the actual resource handler to get the work done.
       send(action_handler,http,collect_cookies(response))
     end
   end
 
+  # this method will be helpful to create the API url to access a specific resource from workshare
   def make_url(apipath)
     @base_url + "/api/open-v1.0/" + apipath
   end
