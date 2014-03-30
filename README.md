@@ -7,3 +7,6 @@ This report would list for each category (if any file present) the number of fil
 "gravity displacement", which is the the difference between the total weights including gravity and the total ideal weights (1).
 
 File types are Songs, Videos, Documents (office, openoffice,...), Text, Binaries, Others Gravity is 1.1 for Documents, 1.4 for Videos, 1.2 for Songs, 1 for the rest any other file types, with the results roundedup to the upper 0.05. A fixed gravity of 100 is added to Text files.
+
+Report screen :
+===============
