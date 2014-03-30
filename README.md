@@ -10,4 +10,4 @@ File types are Songs, Videos, Documents (office, openoffice,...), Text, Binaries
 
 Report screen :
 ===============
-![File weight](https://drive.google.com/file/d/0B166iJpB9uigNWRuYjVPVzdOOUU/edit?usp=sharing)
+![Report](https://github.com/LoveGitHub/files_weight_calculation/blob/gh-pages/image/Screenshot%20from%202014-03-30%2015:51:26.png)
