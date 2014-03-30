@@ -3,11 +3,19 @@ require_relative './client.rb'
 class MyApp < Sinatra::Base
 
   class MyCustomError < StandardError; end
+
   configure :development do
     disable :raise_errors
     disable :show_exceptions
     #set :dump_errors, false
   end
+
+  configure :production do
+    disable :raise_errors
+    disable :show_exceptions
+    set :dump_errors, false
+  end
+
   get '/' do
     send_file 'public/page.html'
   end
